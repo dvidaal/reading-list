@@ -1,14 +1,15 @@
 import BookCardList from "./components/BookCardList/BookCardList";
 import booksData from "./books.json";
+import Header from "./components/Header/Header";
 
 const App = (): JSX.Element => {
   const library = booksData.library;
 
   return (
-    <div>
-      <h1>List of Books</h1>
+    <main>
+      <Header />
       <BookCardList library={library} />
-    </div>
+    </main>
   );
 };
 

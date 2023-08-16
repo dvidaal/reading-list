@@ -1,0 +1,20 @@
+.books-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+}
+
+.books-list__covers {
+  border-radius: 5%;
+  display: block;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.books-list__author {
+  color: black;
+}
+
+.books-list__genre {
+  color: black;
+}
